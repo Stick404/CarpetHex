@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "carpethex",
+  "version": "${version}",
+  "name": "Carpet Hex",
+  "description": "Carpet Hex adds in CarpetMod interop",
+  "authors": [
+    "Stick404"
+  ],
+  "contact": {
+    "homepage": "https://stick404.github.io/CarpetHex",
+    "sources": "https://github.com/Stick404/CarpetHex"
+  },
+  "license": "MIT",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.stickia.carpethex.fabric.CarpetHexFabric"
+    ],
+    "client": [
+      "net.stickia.carpethex.fabric.CarpetHexClientFabric"
+    ]
+  },
+  "mixins": [
+    "carpethex-common.mixins.json",
+    "carpethex.mixins.json"
+  ],
+  "depends": {
+    "minecraft": ">=${minecraftVersion}",
+    "fabricloader": ">=${fabricLoaderVersion}",
+    "fabric-api": "*",
+    "fabric-language-kotlin": ">=${fabricKotlinVersion}",
+    "architectury": ">=${architecturyVersion}",
+    "hexcasting": ">=${hexcastingVersion}"
+  }
+}

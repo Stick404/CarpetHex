@@ -1,0 +1,13 @@
+{
+  "item.carpethex.dummy_item": "Dummy Item",
+  "hexcasting.spell.carpethex:congrats": "Congrats",
+  "hexcasting.spell.carpethex:signum": "Signum Purification",
+  "hexcasting.spell.book.carpethex:congrats": "Dum. Spell Actn.",
+  "hexcasting.spell.book.carpethex:signum": "Dum. Actn.",
+  "carpethex.entry.dummy_spells": "Dummy Spells",
+  "carpethex.entry.dummy_actions": "Dummy Actions",
+  "carpethex.page.dummy_spells.congrats": "Accepts a player entity, tells them they are doing a good job and makes them look up.",
+  "carpethex.page.dummy_actions.signum": "Accepts a $(l:casting/101)number/$, returns -1 if it is negative, 0 if 0, 1 if positive.",
+  "text.carpethex.congrats": "Good job, %1$s!",
+  "text.carpethex.congrats.player": "a Player"
+}

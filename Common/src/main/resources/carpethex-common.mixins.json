@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "net.stickia.carpethex.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8",
+  "client": [
+    "CarpetHexMixin"
+  ],
+  "mixins": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

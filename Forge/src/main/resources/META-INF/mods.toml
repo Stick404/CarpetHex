@@ -1,0 +1,41 @@
+modLoader = "javafml"
+loaderVersion = "[${forgeDependencyVersion},)"
+license = "MIT"
+
+[[mods]]
+modId = "carpethex"
+version = "${version}"
+displayName = "Carpet Hex"
+logoFile = "icon.png"
+authors = "Stick404"
+description = '''
+Carpet Hex adds in CarpetMod interop
+'''
+
+[[dependencies.carpethex]]
+modId = "forge"
+mandatory = true
+versionRange = "[${forgeDependencyVersion},)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.carpethex]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[${minecraftVersion},)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.carpethex]]
+modId = "architectury"
+mandatory = true
+versionRange = "[${architecturyVersion},)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.carpethex]]
+modId = "hexcasting"
+mandatory = true
+versionRange = "[${hexcastingVersion},)"
+ordering = "NONE"
+side = "BOTH"
